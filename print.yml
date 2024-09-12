@@ -12,3 +12,4 @@
           - "Package manager: {{ ansible_pkg_mgr }}"
           - "CPU: {{ ansible_processor_cores }}"
           - "Uptime hours: {{ (ansible_uptime_seconds / 60 / 60) | round(2) }}"
+          - "Owner: {{ owner }}"
