@@ -1,6 +1,6 @@
----
+3---
 - name: Тестируем коннект к серверам
-  hosts: prod
+  hosts: serv3
   become: false
   tasks:
     - name: Пингуем сервера
