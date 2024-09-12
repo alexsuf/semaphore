@@ -7,7 +7,6 @@
     - name: System information
       debug:
         msg:
-          - "Owner: {{ owner }}"
           - "Distribution: {{ ansible_distribution }} --> version: {{ ansible_lsb.description }}"
           - "FQDN: {{ ansible_fqdn }}"
           - "Package manager: {{ ansible_pkg_mgr }}"
