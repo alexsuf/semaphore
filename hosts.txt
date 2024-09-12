@@ -1,10 +1,5 @@
-[dev]
-serv1
-serv2
-
 [prod]
-serv3
+172.18.0.5
 
 [myservers:children]
-dev
 prod
