@@ -1,0 +1,7 @@
+---
+- name: Тестируем коннект к серверам
+  hosts: all
+  become: false
+  tasks:
+    - name: Пингуем сервера
+      ping:
