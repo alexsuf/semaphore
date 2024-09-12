@@ -1,7 +1,7 @@
 ---
 - name: Выводим на экран информацию о серврах
   hosts: all
-  become: true
+  become: false
 
   tasks:
     - name: System information
