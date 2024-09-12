@@ -1,0 +1,2 @@
+ansible_user         : semaphore
+ansible_password     : 1234
