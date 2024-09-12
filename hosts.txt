@@ -1,4 +1,4 @@
-[dev]
+v[dev]
 linux1 ansible_host=172.18.0.5 owner=Alex
 linux2 ansible_host=172.18.0.4 owner=Grisha
 
