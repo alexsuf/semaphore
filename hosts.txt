@@ -1,9 +1,9 @@
 [dev]
-linux1 ansible_host=serv1 owner=Alex
-linux2 ansible_host=serv2 owner=Grisha
+serv1
+serv2
 
 [prod]
-linux3 ansible_host=serv3 owner=Ivan
+serv3
 
 [myservers:children]
 dev
