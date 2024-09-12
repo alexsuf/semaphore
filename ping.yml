@@ -1,5 +1,5 @@
 - name: Тестируем коннект к серверам
-  hosts: prod
+  hosts: all
   become: false
   tasks:
     - name: Ping servers
