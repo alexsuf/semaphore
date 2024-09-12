@@ -1,4 +1,4 @@
-3---
+---
 - name: Тестируем коннект к серверам
   hosts: serv3
   become: false
