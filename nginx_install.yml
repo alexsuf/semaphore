@@ -1,5 +1,5 @@
 - name: Установка и запуск Nginx на prod-серверах
-  hosts: prod
+  hosts: all
   become: true
   tasks:
     - name: Установка Nginx
